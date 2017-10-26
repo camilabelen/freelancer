@@ -45,7 +45,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-family: 'Montserrat', sans-serif;
 }
-
+/*menu*/
 nav{
  	position: fixed;
  	background-color: #303E52;
@@ -63,6 +63,7 @@ nav{
 	margin-left: 8.8%;
 }
 
+/*botones*/
 .menu a{
  	color: #FFF;
  	text-decoration: none;
@@ -102,6 +103,7 @@ nav{
  	height: 900px;
  }
 
+/*imagen*/
 .profile img{
  	float: left;
  	margin-left: 650px;
@@ -140,7 +142,7 @@ nav{
 	text-align: center;
 	padding-top: 45px;
 }
-
+/*imagenes*/
 .portfolio img{
 	width: 400px;
 	float: left;
@@ -177,6 +179,7 @@ Inicio Seccion About*/
 	padding-top: 100px;
 }
 
+/*texto*/
 .text{
 	color: #FFF;
 	width: 100%;
@@ -200,6 +203,7 @@ Inicio Seccion About*/
 	text-align: left;
 }
 
+/*boton download*/
 #download{
 	color: #FFF;
  	text-decoration: none;
@@ -280,6 +284,7 @@ textarea{
 	border:0;
 }*/
 
+/*boton send*/
 button{
 	font-family: 'Lato',sans-serif;
 	background-color: #00C69C;
@@ -395,6 +400,7 @@ footer p{
 	color: #12BD9C;
 }
 
+/*copyright*/
 .copyright{
 	float: left;
 	margin-left: 630px;
