@@ -79,7 +79,7 @@ Este reto será evaluado sobre lo siguiente:
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
 
-#Mi repositorio
+# Mi repositorio
 
 El repositorio cuenta con el archivo index.html, una carpeta css con main.css, imagenes e iconos.
 
