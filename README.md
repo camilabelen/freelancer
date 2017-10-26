@@ -88,7 +88,8 @@ Para desarrollar el maquetado del tema de Bootstrap "Freelancer" usé la etiquet
 1. En la etiqueta _nav_ hice uso de las etiquetas _h1_ y _a_ para los botones.
 
 2. La primera _section_ con clase _profile_ contiene una etiqueta _img_ con la imagen, _h2_ y _p_.
-  * El icono de la estrella en esta sección como en todas las otras lo hice contenido en un _div_.
+  * El icono de la estrella en esta sección como en todas las otras lo hice contenido en un _div_ y cada línea a los lados de la estrella también son un _div_ con un _width_, _height_ y _background-color_.
+
 
 3. La segunda _section_ con clase _portfolio_ contiene un título _h1_ y seis etiquetas _img_.
   * Estos elementos, tanto como los anteriores y los siguientes fueron modificados en su posición con la propiedad _float_ y su valor _left_.
