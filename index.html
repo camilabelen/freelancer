@@ -13,9 +13,9 @@
 	<nav>
 		<div class="menu">
 			<h1>start bootstrap</h1>
-			<a id="a">portfolio</a>
-			<a id="b">about</a>
-			<a id="c">contact</a>
+			<li><a id="a" href="#portfolio">portfolio</a></li>
+			<li><a id="b" href="#about">about</a></li>
+			<li><a id="c" href="#contact">contact</a></li>		
 		</div>
 	</nav>
 	<!-- primera seccion profile -->
@@ -44,6 +44,8 @@
 			<img id="imgcabin" src="assets/images/portfolio/cabin.png" alt="">
 			<img id="cake" src="assets/images/portfolio/cake.png" alt="">
 			<img id="circus" src="assets/images/portfolio/circus.png" alt="">
+		</div>
+		<div class="images">
 			<img id="game" src="assets/images/portfolio/game.png" alt="">
 			<img id="safe" src="assets/images/portfolio/safe.png" alt="">
 			<img id="submarine" src="assets/images/portfolio/submarine.png" alt="">
@@ -57,15 +59,15 @@
 			<i class="fa fa-star" aria-hidden="true"></i>
 		</div>
 		<div id="line-right"></div>
-		<div>
-			<!-- <i class="fa fa-star" aria-hidden="true"></i>-->
-		</div>
-		 <!-- texto de la seccion about -->
+		<!-- texto de la seccion about -->
 		<div class="text">
 			<p id="p1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-			<p id="p2">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>		
+			<p id="p2">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>	
+		</div>
+		<div class="downloadTheme">
 			<a id="download" href=""><i class="fa fa-download" aria-hidden="true"></i> Download Theme</a>
 		</div>
+		
 	</section>
 	<!-- cuarta seccion contact -->
 	<section class="contact">
@@ -91,7 +93,7 @@
 					<textarea id="msg" rows="6" cols="60" placeholder="Message"></textarea>
 				</div>
 				<div>
-					<button type="submit">Send</button>
+					<button type="submit" class="send">Send</button>
 				</div>
 			</form>
 		</div>
